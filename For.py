@@ -14,7 +14,7 @@
 
 #numeros = [num1, num2, num3]
 
-#or num in numeros:
+#for num in numeros:
 #    if num < menor_numero:
 #        menor_numero = num
 #    if num > maior_numero:
