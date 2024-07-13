@@ -81,3 +81,19 @@ else:
     participacao = "inocente"
     
 print(f"O {interrogado} foi classificado como {participacao}, baseado nas perguntas feitas com relação à vítima.")
+
+#soma de três números usando WHILE
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segunda número: "))
+num3 = float(input("Digite o terceiro número: "))
+
+numeros = [num1, num2, num3]
+soma = 0
+indice = 0
+
+while indice < len(numeros):
+    soma += numeros[indice]
+    indice += 1
+    
+print(f"A soma entre {num1}, {num2} e {num3} é igual a {soma}")
