@@ -97,3 +97,42 @@ while indice < len(numeros):
     indice += 1
     
 print(f"A soma entre {num1}, {num2} e {num3} é igual a {soma}")
+
+##somar usando WHILE
+
+#num1 = float(input("Digite o primeiro número: "))    
+#num2 = float(input("Digite o segunda número: "))
+#num3 = float(input("Digite o terceiro número: "))
+
+#numeros = [num1, num2, num3]
+#soma = 0
+#indice = 0
+
+#while indice < len(numeros):
+#    soma += numeros[indice]
+#    indice += 1
+    
+#print(f"A soma entre {num1}, {num2} e {num3} é igual a {soma}")
+
+##OU
+
+#contador = 1
+#soma = 0
+
+#while contador <= 3:
+    #num1 = float(input("Digite um número: "))
+    #soma += num1
+    #contador += 1
+
+#print(f"O resutlado da soma dos números é igual a", soma)
+
+##Verificador
+
+#while True:
+    #verificador = input("Digite um número: ")
+
+    #if verificador.isdigit():
+        #print("É um número")
+        #break
+    #else:
+        #input("Não é válido, digite um número válido")
